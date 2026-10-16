@@ -1,0 +1,30 @@
+name: Revisar uma questão CISSP
+description: Relate um problema de conteúdo com evidência e contexto.
+title: "[Questão CISSP] "
+body:
+  - type: input
+    id: question
+    attributes:
+      label: Identificador da questão
+      placeholder: cissp-d1-exemplo
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versão do aplicativo
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Problema observado e sugestão
+      description: Não inclua credenciais, dados sensíveis ou questões confidenciais de exame.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Fonte oficial ou primária que sustenta a sugestão
+    validations:
+      required: true
