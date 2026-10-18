@@ -1,9 +1,9 @@
-const VERSION='2026.10.17-cissp.2-0df593f29b332938e87f';
+const VERSION='2026.10.18-cissp.1-c86b3e251d9b2d2fb2f6';
 const PREFIX='cissp-navigator-';
 const CACHE=PREFIX+VERSION;
 const STATUS_CACHE=PREFIX+'source-status';
 const url=p=>new URL(p,self.registration.scope).href;
-const FILES=[{"path":"index.html","sha256":"b2e6bc487a01095a42973942e1860ed095640ffba512b9069a91050185ba2b19"},{"path":"assets/app.js","sha256":"0be34aa95c47c3f8b30db49726063c5d31cc19d1dcd09579ef12e10aa0525b6e"},{"path":"assets/app.css","sha256":"e69652ba95c85aed9cad9471a6ab39cc137f64e8539cc27e4200320634d04083"},{"path":"favicon.svg","sha256":"50d45f2d42acd9423fb6e1abbe2e55f2c52c76199de18b2b7379db7ba15c123c"},{"path":"icon-192.png","sha256":"ada44e998a23e1604b0c783ef7b795b9dab14bf15a0d8007f2f3d3ca2ddd525b"},{"path":"icon-512.png","sha256":"67b02546c09ce48671a9aa023cf84c13680397de4db64b9d03ea6dbe17d269cf"},{"path":"manifest.webmanifest","sha256":"1336701cbf808ae0e42f1dfcfe9ae22d102eb5e0b617fed63d3f26037f9f25fe"}];
+const FILES=[{"path":"index.html","sha256":"b2e6bc487a01095a42973942e1860ed095640ffba512b9069a91050185ba2b19"},{"path":"assets/app.js","sha256":"9918e5802b61ab7ab6ba202dea648f215d7b9027f48e195cc25196089cef1b5e"},{"path":"assets/app.css","sha256":"e69652ba95c85aed9cad9471a6ab39cc137f64e8539cc27e4200320634d04083"},{"path":"favicon.svg","sha256":"50d45f2d42acd9423fb6e1abbe2e55f2c52c76199de18b2b7379db7ba15c123c"},{"path":"icon-192.png","sha256":"ada44e998a23e1604b0c783ef7b795b9dab14bf15a0d8007f2f3d3ca2ddd525b"},{"path":"icon-512.png","sha256":"67b02546c09ce48671a9aa023cf84c13680397de4db64b9d03ea6dbe17d269cf"},{"path":"manifest.webmanifest","sha256":"1b99b1146c2b8949c3e88d51eef521bcaae2a922560cf3f9dbaff164c7490622"}];
 self.addEventListener('install',e=>e.waitUntil((async()=>{
   const cache=await caches.open(CACHE);
   try{for(const file of FILES){const response=await fetch(url(file.path),{cache:'reload'});if(!response.ok)throw Error('Precache failed');const digest=await crypto.subtle.digest('SHA-256',await response.clone().arrayBuffer());const actual=[...new Uint8Array(digest)].map(n=>n.toString(16).padStart(2,'0')).join('');if(actual!==file.sha256)throw Error('Precache integrity failed');await cache.put(url(file.path),response);}}
