@@ -1,0 +1,40 @@
+{
+  "version": "2026.10.17-cissp.2",
+  "state": "release",
+  "count": 800,
+  "bankHash": "911cf61e67374fa5f7c203d72f80a2bddac080d5a4c3324f39ff0d4432103518",
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "b2e6bc487a01095a42973942e1860ed095640ffba512b9069a91050185ba2b19"
+    },
+    {
+      "path": "assets/app.js",
+      "sha256": "0be34aa95c47c3f8b30db49726063c5d31cc19d1dcd09579ef12e10aa0525b6e"
+    },
+    {
+      "path": "assets/app.css",
+      "sha256": "e69652ba95c85aed9cad9471a6ab39cc137f64e8539cc27e4200320634d04083"
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "50d45f2d42acd9423fb6e1abbe2e55f2c52c76199de18b2b7379db7ba15c123c"
+    },
+    {
+      "path": "icon-192.png",
+      "sha256": "ada44e998a23e1604b0c783ef7b795b9dab14bf15a0d8007f2f3d3ca2ddd525b"
+    },
+    {
+      "path": "icon-512.png",
+      "sha256": "67b02546c09ce48671a9aa023cf84c13680397de4db64b9d03ea6dbe17d269cf"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "sha256": "1336701cbf808ae0e42f1dfcfe9ae22d102eb5e0b617fed63d3f26037f9f25fe"
+    },
+    {
+      "path": "sw.js",
+      "sha256": "a7e96984bd93b412ea4f24a2205a9654397d8473458e57baecf69a607bf9554e"
+    }
+  ]
+}

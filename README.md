@@ -1,9 +1,11 @@
 # CISSP Navigator
 
-Distribuição e feedback do projeto educacional independente de Giancarlo Avediani del Banho.
+Aplicação educacional independente e gratuita em português, com PWA offline e progresso local.
 
-**Em desenvolvimento. A aplicação ainda não foi publicada.** A meta é um simulador gratuito em português, instalável como PWA, com progresso local e 800 questões autorais revisadas. Não há afiliação ou endosso da ISC2 nem promessa de aprovação.
+[Abrir o CISSP Navigator](https://giancarlo-23-gc.github.io/cissp-navigator/)
 
-Este repositório recebe somente a distribuição compilada e os canais de feedback. O código-fonte e a curadoria ficam privados. A publicação final depende de conteúdo, revisão e testes concluídos; a existência deste repositório não indica que esses critérios já foram atingidos.
+Fonte e curadoria são mantidas em repositório privado; este destino recebe os artefatos compilados e feedback. Não há cadastro obrigatório, analytics nem garantia de aprovação. O CAT do aplicativo é uma aproximação educacional, sem equivalência psicométrica com o exame ISC2.
 
-[Conheça o criador no LinkedIn](https://www.linkedin.com/in/giancarlo-avediani-del-banho-7055b089/).
+CISSP é marca de seu respectivo titular. Não há afiliação ou endosso. Para sugerir uma correção, abra uma issue com o identificador da questão, a versão do aplicativo e a fonte pertinente. Não inclua conteúdo confidencial de exame ou dados sensíveis.
+
+[Giancarlo Avediani del Banho no LinkedIn](https://www.linkedin.com/in/giancarlo-avediani-del-banho-7055b089/).
