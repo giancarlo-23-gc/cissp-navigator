@@ -1,7 +1,9 @@
 {
   "schema": 1,
-  "checkedAt": "2026-10-20T02:07:12.069Z",
-  "pendingSources": [],
+  "checkedAt": "2026-10-20T15:18:37.044Z",
+  "pendingSources": [
+    "d68-personal-safety"
+  ],
   "verifiedSources": [
     "outline",
     "cat",
@@ -188,7 +190,6 @@
     "d68-ai-rmf",
     "d68-schema-rollback",
     "d68-escrow",
-    "d68-personal-safety",
     "d68-storage-encryption",
     "d68-test-glossary",
     "d68-conformity",
