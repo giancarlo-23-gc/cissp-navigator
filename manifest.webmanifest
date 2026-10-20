@@ -7,6 +7,13 @@
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "id": "https://giancarlo-23-gc.github.io/cissp-navigator/",
+      "url": "./manifest.webmanifest"
+    }
+  ],
   "background_color": "#f4f6fa",
   "theme_color": "#10253f",
   "icons": [
