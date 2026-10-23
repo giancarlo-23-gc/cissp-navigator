@@ -1,7 +1,15 @@
 {
   "schema": 1,
-  "checkedAt": "2026-10-22T16:32:13.503Z",
-  "pendingSources": [],
+  "checkedAt": "2026-10-23T15:23:46.387Z",
+  "pendingSources": [
+    "d68-test-glossary",
+    "d68-cwe190",
+    "d68-cwe416",
+    "d68-cwe367",
+    "d68-cwe338",
+    "d68-cwe22",
+    "d68-cwe208"
+  ],
   "verifiedSources": [
     "outline",
     "cat",
@@ -160,12 +168,6 @@
     "d68-dos",
     "d68-thirdpartyjs",
     "d68-webhook",
-    "d68-cwe190",
-    "d68-cwe416",
-    "d68-cwe367",
-    "d68-cwe338",
-    "d68-cwe22",
-    "d68-cwe208",
     "d68-sandbox",
     "d68-mobile",
     "d68-ssdf",
@@ -190,7 +192,6 @@
     "d68-escrow",
     "d68-personal-safety",
     "d68-storage-encryption",
-    "d68-test-glossary",
     "d68-conformity",
     "d68-wal",
     "d68-cumulative-update",
