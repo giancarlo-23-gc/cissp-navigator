@@ -1,7 +1,9 @@
 {
   "schema": 1,
-  "checkedAt": "2026-10-23T21:20:48.249Z",
-  "pendingSources": [],
+  "checkedAt": "2026-10-24T14:05:40.685Z",
+  "pendingSources": [
+    "root-sql"
+  ],
   "verifiedSources": [
     "outline",
     "cat",
@@ -197,7 +199,6 @@
     "d68-continuity-service",
     "root-synthetic",
     "root-business-logic",
-    "root-sql",
     "root-spiral",
     "root-nsa-oob",
     "root-hsm-policy",
