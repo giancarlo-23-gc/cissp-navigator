@@ -1,7 +1,8 @@
 {
   "schema": 1,
-  "checkedAt": "2026-10-24T14:05:40.685Z",
+  "checkedAt": "2026-10-25T14:31:42.728Z",
   "pendingSources": [
+    "d68-secrets",
     "root-sql"
   ],
   "verifiedSources": [
@@ -144,7 +145,6 @@
     "d68-controls",
     "d68-idps",
     "d68-logging",
-    "d68-secrets",
     "d68-samm",
     "d68-supply",
     "d68-cicd",
