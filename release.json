@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.23-cissp.1",
+  "version": "2026.10.26-cissp.1",
   "state": "release",
   "count": 800,
   "bankHash": "911cf61e67374fa5f7c203d72f80a2bddac080d5a4c3324f39ff0d4432103518",
@@ -10,7 +10,7 @@
     },
     {
       "path": "assets/app.js",
-      "sha256": "f1152a18cd6e242ce6b87338215a789bb6ee3bad0fc177fd2275f6e1dd131b75"
+      "sha256": "8556e6ad159561c33eb813e794507be15014f798559120e65d44bf0d599ae863"
     },
     {
       "path": "assets/app.css",
@@ -34,7 +34,7 @@
     },
     {
       "path": "sw.js",
-      "sha256": "5ea406e1ac567ca6ab60d8074fcce87ee3b7695e910ef3bc504c55fe373a6b0d"
+      "sha256": "d723fefb657a37c9de82ca59cc70c300125d58672c322745a4112ced7ff2eabc"
     }
   ]
 }
