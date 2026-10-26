@@ -1,10 +1,7 @@
 {
   "schema": 1,
-  "checkedAt": "2026-10-26T16:53:55.470Z",
-  "pendingSources": [
-    "d68-secrets",
-    "root-sql"
-  ],
+  "checkedAt": "2026-10-26T20:19:24.724Z",
+  "pendingSources": [],
   "verifiedSources": [
     "outline",
     "cat",
@@ -145,6 +142,7 @@
     "d68-controls",
     "d68-idps",
     "d68-logging",
+    "d68-secrets",
     "d68-samm",
     "d68-supply",
     "d68-cicd",
@@ -199,6 +197,7 @@
     "d68-continuity-service",
     "root-synthetic",
     "root-business-logic",
+    "root-sql",
     "root-spiral",
     "root-nsa-oob",
     "root-hsm-policy",
