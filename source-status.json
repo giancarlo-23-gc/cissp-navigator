@@ -1,7 +1,9 @@
 {
   "schema": 1,
-  "checkedAt": "2026-10-26T20:36:48.009Z",
-  "pendingSources": [],
+  "checkedAt": "2026-10-27T15:58:46.109Z",
+  "pendingSources": [
+    "root-envelope"
+  ],
   "verifiedSources": [
     "outline",
     "cat",
@@ -201,7 +203,6 @@
     "root-spiral",
     "root-nsa-oob",
     "root-hsm-policy",
-    "root-envelope",
     "root-hkdf",
     "root-crmf",
     "root-biba",
