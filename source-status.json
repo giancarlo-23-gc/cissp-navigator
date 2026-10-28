@@ -1,7 +1,8 @@
 {
   "schema": 1,
-  "checkedAt": "2026-10-27T15:58:46.109Z",
+  "checkedAt": "2026-10-28T16:47:07.517Z",
   "pendingSources": [
+    "d35-physical-access",
     "root-envelope"
   ],
   "verifiedSources": [
@@ -115,7 +116,6 @@
     "d35-wlan",
     "d35-bluetooth",
     "d35-nac",
-    "d35-physical-access",
     "d35-proofing",
     "d35-cisa-mfa",
     "d35-totp",
