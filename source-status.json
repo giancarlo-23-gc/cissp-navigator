@@ -1,13 +1,12 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-01T16:53:29.098Z",
+  "checkedAt": "2026-11-02T20:28:31.432Z",
   "pendingSources": [
     "d35-csrf",
     "d68-secrets",
     "d68-xss",
     "d68-csrf",
-    "d68-mobile",
-    "d12-preservation"
+    "d68-mobile"
   ],
   "verifiedSources": [
     "outline",
@@ -54,6 +53,7 @@
     "d12-guideline",
     "d12-standard",
     "d12-control-types",
+    "d12-preservation",
     "d12-verify",
     "d12-data-owner",
     "d12-risk-terms",
