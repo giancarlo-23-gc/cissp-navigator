@@ -1,8 +1,11 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-04T18:11:17.266Z",
+  "checkedAt": "2026-11-05T18:12:32.595Z",
   "pendingSources": [
-    "d35-ssh"
+    "d35-ssh",
+    "d35-session",
+    "d68-sandbox",
+    "d68-adversary"
   ],
   "verifiedSources": [
     "outline",
@@ -121,7 +124,6 @@
     "d35-hotp",
     "d35-password-storage",
     "d35-credential-attacks",
-    "d35-session",
     "d35-csrf",
     "d35-oauth",
     "d35-federation",
@@ -167,7 +169,6 @@
     "d68-cwe338",
     "d68-cwe22",
     "d68-cwe208",
-    "d68-sandbox",
     "d68-mobile",
     "d68-ssdf",
     "d68-incident",
@@ -179,7 +180,6 @@
     "d68-mobile-forensics",
     "d68-exercises",
     "d68-allowlist",
-    "d68-adversary",
     "d68-experiment",
     "d68-phishing-test",
     "d68-transitive-groups",
