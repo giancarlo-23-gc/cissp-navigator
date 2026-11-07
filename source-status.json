@@ -1,12 +1,11 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-06T17:39:07.745Z",
+  "checkedAt": "2026-11-07T16:35:30.259Z",
   "pendingSources": [
     "d35-ssh",
     "d35-session",
     "d68-sandbox",
-    "d68-adversary",
-    "d12-appi"
+    "d68-adversary"
   ],
   "verifiedSources": [
     "outline",
@@ -36,6 +35,7 @@
     "d12-gdpr-roles",
     "d12-gdpr-rights",
     "d12-ccpa",
+    "d12-appi",
     "d12-pipl",
     "d12-export",
     "d12-copyright",
