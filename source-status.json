@@ -1,11 +1,17 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-08T16:45:35.938Z",
+  "checkedAt": "2026-11-09T20:59:03.718Z",
   "pendingSources": [
     "d35-ssh",
     "d35-session",
+    "d68-secrets",
+    "d68-ssrf",
     "d68-sandbox",
-    "d68-adversary"
+    "d68-adversary",
+    "root-sql",
+    "root-workload-attestation",
+    "d12-gdpr",
+    "d12-gdpr-roles"
   ],
   "verifiedSources": [
     "outline",
@@ -31,8 +37,6 @@
     "d12-forensic",
     "d12-privacy",
     "d12-threat",
-    "d12-gdpr",
-    "d12-gdpr-roles",
     "d12-gdpr-rights",
     "d12-ccpa",
     "d12-appi",
@@ -145,13 +149,11 @@
     "d68-controls",
     "d68-idps",
     "d68-logging",
-    "d68-secrets",
     "d68-samm",
     "d68-supply",
     "d68-cicd",
     "d68-xss",
     "d68-csrf",
-    "d68-ssrf",
     "d68-upload",
     "d68-deserialization",
     "d68-command",
@@ -198,7 +200,6 @@
     "d68-continuity-service",
     "root-synthetic",
     "root-business-logic",
-    "root-sql",
     "root-spiral",
     "root-nsa-oob",
     "root-hsm-policy",
@@ -222,7 +223,6 @@
     "root-mab",
     "root-hybrid-sync",
     "root-vault-rotation",
-    "root-workload-attestation",
     "root-pinning",
     "root-devolution"
   ]
