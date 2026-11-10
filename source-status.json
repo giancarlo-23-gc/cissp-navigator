@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-09T20:59:03.718Z",
+  "checkedAt": "2026-11-10T18:07:06.005Z",
   "pendingSources": [
     "d35-ssh",
     "d35-session",
@@ -9,9 +9,7 @@
     "d68-sandbox",
     "d68-adversary",
     "root-sql",
-    "root-workload-attestation",
-    "d12-gdpr",
-    "d12-gdpr-roles"
+    "root-workload-attestation"
   ],
   "verifiedSources": [
     "outline",
@@ -37,6 +35,8 @@
     "d12-forensic",
     "d12-privacy",
     "d12-threat",
+    "d12-gdpr",
+    "d12-gdpr-roles",
     "d12-gdpr-rights",
     "d12-ccpa",
     "d12-appi",
