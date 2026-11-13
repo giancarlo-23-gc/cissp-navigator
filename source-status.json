@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-12T18:31:54.732Z",
+  "checkedAt": "2026-11-13T17:58:34.680Z",
   "pendingSources": [
     "outline",
     "cat",
@@ -24,6 +24,7 @@
     "d12-control-types",
     "d12-data-owner",
     "d12-risk-terms",
+    "d35-icmpv6",
     "d35-ssh",
     "d35-session",
     "d35-abac",
@@ -33,12 +34,12 @@
     "d68-errors",
     "d68-sandbox",
     "d68-adversary",
+    "d68-phishing-test",
     "d68-wal",
     "root-sql",
     "root-vault-rotation",
     "root-workload-attestation",
-    "d12-gdpr",
-    "d12-gdpr-roles"
+    "d12-gdpr-rights"
   ],
   "verifiedSources": [
     "csf",
@@ -49,7 +50,8 @@
     "kev",
     "d12-privacy",
     "d12-threat",
-    "d12-gdpr-rights",
+    "d12-gdpr",
+    "d12-gdpr-roles",
     "d12-ccpa",
     "d12-appi",
     "d12-pipl",
@@ -94,7 +96,6 @@
     "d35-ipv6-security",
     "d35-nd",
     "d35-ipv6",
-    "d35-icmpv6",
     "d35-tcp",
     "d35-udp",
     "d35-quic",
@@ -185,7 +186,6 @@
     "d68-exercises",
     "d68-allowlist",
     "d68-experiment",
-    "d68-phishing-test",
     "d68-transitive-groups",
     "d68-hunting",
     "d68-outofband",
