@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-13T17:58:34.680Z",
+  "checkedAt": "2026-11-14T16:41:17.260Z",
   "pendingSources": [
     "outline",
     "cat",
@@ -38,8 +38,7 @@
     "d68-wal",
     "root-sql",
     "root-vault-rotation",
-    "root-workload-attestation",
-    "d12-gdpr-rights"
+    "root-workload-attestation"
   ],
   "verifiedSources": [
     "csf",
@@ -52,6 +51,7 @@
     "d12-threat",
     "d12-gdpr",
     "d12-gdpr-roles",
+    "d12-gdpr-rights",
     "d12-ccpa",
     "d12-appi",
     "d12-pipl",
