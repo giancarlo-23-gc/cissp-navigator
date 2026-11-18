@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-17T19:17:12.266Z",
+  "checkedAt": "2026-11-18T18:59:09.548Z",
   "pendingSources": [
     "outline",
     "cat",
@@ -59,7 +59,8 @@
     "root-boot",
     "root-vault-rotation",
     "root-workload-attestation",
-    "root-pinning"
+    "root-pinning",
+    "d12-gdpr"
   ],
   "verifiedSources": [
     "csf",
@@ -68,7 +69,6 @@
     "auth",
     "kev",
     "d12-privacy",
-    "d12-gdpr",
     "d12-gdpr-roles",
     "d12-gdpr-rights",
     "d12-ccpa",
