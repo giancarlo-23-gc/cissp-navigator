@@ -1,7 +1,11 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-19T19:07:12.670Z",
-  "pendingSources": [],
+  "checkedAt": "2026-11-20T18:44:52.906Z",
+  "pendingSources": [
+    "d12-gdpr",
+    "d12-gdpr-rights",
+    "root-vlan"
+  ],
   "verifiedSources": [
     "outline",
     "cat",
@@ -26,9 +30,7 @@
     "d12-forensic",
     "d12-privacy",
     "d12-threat",
-    "d12-gdpr",
     "d12-gdpr-roles",
-    "d12-gdpr-rights",
     "d12-ccpa",
     "d12-appi",
     "d12-pipl",
@@ -211,7 +213,6 @@
     "root-serverless-state",
     "root-inference",
     "root-hpc",
-    "root-vlan",
     "root-stateful-ha",
     "root-multipath",
     "root-lb-health",
