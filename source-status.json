@@ -1,9 +1,11 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-22T17:59:26.451Z",
+  "checkedAt": "2026-11-23T22:11:11.976Z",
   "pendingSources": [
     "d12-gdpr",
     "d12-gdpr-rights",
+    "d68-phishing-test",
+    "d68-continuity-service",
     "root-vlan"
   ],
   "verifiedSources": [
@@ -182,7 +184,6 @@
     "d68-allowlist",
     "d68-adversary",
     "d68-experiment",
-    "d68-phishing-test",
     "d68-transitive-groups",
     "d68-hunting",
     "d68-outofband",
@@ -196,7 +197,6 @@
     "d68-conformity",
     "d68-wal",
     "d68-cumulative-update",
-    "d68-continuity-service",
     "root-synthetic",
     "root-business-logic",
     "root-sql",
