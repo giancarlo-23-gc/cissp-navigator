@@ -1,12 +1,9 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-23T22:11:11.976Z",
+  "checkedAt": "2026-11-24T20:48:03.383Z",
   "pendingSources": [
-    "d12-gdpr",
-    "d12-gdpr-rights",
-    "d68-phishing-test",
-    "d68-continuity-service",
-    "root-vlan"
+    "d35-cisa-mfa",
+    "root-hpc"
   ],
   "verifiedSources": [
     "outline",
@@ -32,7 +29,9 @@
     "d12-forensic",
     "d12-privacy",
     "d12-threat",
+    "d12-gdpr",
     "d12-gdpr-roles",
+    "d12-gdpr-rights",
     "d12-ccpa",
     "d12-appi",
     "d12-pipl",
@@ -119,7 +118,6 @@
     "d35-nac",
     "d35-physical-access",
     "d35-proofing",
-    "d35-cisa-mfa",
     "d35-totp",
     "d35-hotp",
     "d35-password-storage",
@@ -184,6 +182,7 @@
     "d68-allowlist",
     "d68-adversary",
     "d68-experiment",
+    "d68-phishing-test",
     "d68-transitive-groups",
     "d68-hunting",
     "d68-outofband",
@@ -197,6 +196,7 @@
     "d68-conformity",
     "d68-wal",
     "d68-cumulative-update",
+    "d68-continuity-service",
     "root-synthetic",
     "root-business-logic",
     "root-sql",
@@ -212,7 +212,7 @@
     "root-userns",
     "root-serverless-state",
     "root-inference",
-    "root-hpc",
+    "root-vlan",
     "root-stateful-ha",
     "root-multipath",
     "root-lb-health",
