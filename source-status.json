@@ -1,8 +1,10 @@
 {
   "schema": 1,
-  "checkedAt": "2026-11-24T20:48:03.383Z",
+  "checkedAt": "2026-11-25T20:04:37.915Z",
   "pendingSources": [
+    "d35-icmpv6",
     "d35-cisa-mfa",
+    "d68-rest",
     "root-hpc"
   ],
   "verifiedSources": [
@@ -83,7 +85,6 @@
     "d35-ipv6-security",
     "d35-nd",
     "d35-ipv6",
-    "d35-icmpv6",
     "d35-tcp",
     "d35-udp",
     "d35-quic",
@@ -155,7 +156,6 @@
     "d68-deserialization",
     "d68-command",
     "d68-xxe",
-    "d68-rest",
     "d68-password",
     "d68-massassignment",
     "d68-errors",
